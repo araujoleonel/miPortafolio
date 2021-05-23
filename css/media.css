@@ -28,6 +28,19 @@
 	}
 }
 
+@media screen and (max-width: 1080px) {
+	/***************************************
+	ESTILOS SECCION ACERCA
+	***************************************/
+	#acerca__texto {
+		flex: 1;
+		min-width: 500px;
+	}
+
+	#acerca__tecnologias {
+		min-width: 500px;
+	}
+} 
 
 @media screen and (max-width: 840px) {
 	/***************************************
@@ -64,3 +77,17 @@
 	}
 }
 
+@media screen and (max-width: 530px) {
+	/***************************************
+	ESTILOS SECCION ACERCA
+	***************************************/
+	#acerca__texto {
+		flex: 1;
+		min-width: 300px;
+	}
+
+	#acerca__tecnologias {
+		min-width: 300px;
+	}
+
+}
