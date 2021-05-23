@@ -1,0 +1,51 @@
+@media screen and (min-width: 841px){
+	/***************************************
+	ESTILOS NAVEGACION
+	***************************************/
+	#navega__menu {
+		display: inline-flex;
+		align-items: center;
+		justify-content: flex-end;
+		flex: 1;
+		padding-right: 20px;
+		position: relative;
+	}
+
+
+}
+
+@media screen and (max-width: 840px) {
+	/***************************************
+	ESTILOS NAVEGACION
+	***************************************/
+	#navega__menu {
+		display: block;
+		flex-wrap: wrap;
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		background-color: black;
+		padding: 20% 0;
+		z-index: 10;
+		transition: transform 1s;
+		left: 110%;
+	}
+
+	.navega__enlaces {
+		text-align: center;
+		margin: 30px 0;
+	}
+
+	.navega__enlaces a {
+		font-size: 30px;
+	}
+
+	#navega_icono {
+		display: flex;
+	}
+
+	#navega__contenedor {
+		justify-content: space-between;
+	}
+}
+
