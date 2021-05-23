@@ -155,7 +155,33 @@
   SECCION CONTACTO
   ****************************************************--> 
   <section id="contacto">
-
+    <p class="titulos">Contactame</p>
+    <p id="contacto__linea"></p>
+    <div id="contacto__formulario">
+      <form name="contacto" method="POST" data-netlify="true">
+        <p>
+          <label for="nombre_completo">Nombre Completo <span class="obligatorio">*</span></label>
+          <input type="text" name="name" id="nombre_completo" required="obligatorio" placeholder="Escribe tu nombre completo" />
+        </p>
+        <p>
+          <label for="su_email">Correo electrónico <span class="obligatorio">*</span></label>
+          <input type="email" name="email" id="su_email" required="obligatorio" placeholder="Escribe tu correo electrónico" />
+        </p>
+        <p>
+          <label for="su_mensaje">Mensaje <span class="obligatorio">*</span></label>
+          <textarea name="message" id="su_mensaje" required="obligatorio" placeholder="Escribe tu mensaje"></textarea>
+        </p>
+        <p>
+          <button type="submit">Enviar mensaje</button>
+        </p>
+        <p class="aviso">
+          <span class="obligatorio">*</span>Los campos son obligatorios
+        </p>
+      </form>
+    </div>
+    <div id="contacto__sigueme">
+      <a href="https://github.com/araujoleonel" target="blank">Sigueme en<span class="fab fa-github"></span></a> 
+    </div>
   </section> 
   <!--***************************************************
   PIE DE PAGINA

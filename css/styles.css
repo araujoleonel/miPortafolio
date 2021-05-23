@@ -527,3 +527,121 @@ ESTILOS SECCION PORTAFOLIO
 	transform: translateY(-300px);
 }
 
+/***************************************************
+ESTILOS SECCION CONTACTO
+***************************************************/ 
+#contacto {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 80px 20px 0 20px;
+}
+
+#contacto__linea {
+	position: absolute;
+	width: 200px;
+	border-top: 5px solid #298807;
+	top: 126px;
+	left: 0; 
+	right: 0;
+	margin: 0 auto;
+	z-index: 11;
+}
+
+#contacto__formulario {
+	width: 500px;
+	height: 410px;
+	background: #191919;
+	margin: 50px auto 0 auto;
+	border: 1px solid #191919;
+	border-radius: 10px;
+	padding: 20px 30px;
+	color: #7e8e8e;
+}
+
+#contacto__formulario:hover {
+	-webkit-box-shadow: 0px 0px 6px -1px rgba(191, 196, 196, 1);
+	-moz-box-shadow: 0px 0px 6px -1px rgba(191, 196, 196, 1);
+	box-shadow: 0px 0px 6px -1px rgba(191, 196, 196, 1);
+}
+
+#contacto__formulario label {
+	display: block;
+	margin-bottom: 3px;
+}
+
+#contacto__formulario span {
+	color: white;
+	margin-right: 10px;
+}
+
+#contacto__formulario input {
+	width: 100%;
+	margin-bottom: 12px;
+	border-radius: 4px;
+	height: 30px;
+	padding-left: 10px;
+	color: #298807;
+}
+
+#contacto__formulario textarea {
+	width: 100%;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	height: 150px;
+	padding-top: 8px;
+	padding-left: 10px;
+	color: #298807;
+}
+
+#contacto__formulario button {
+	width: 170px;
+	height: 40px;
+	background: #298807;
+	border-color: #298807;
+	border-radius: 4px;
+	margin-bottom: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#contacto__formulario button:hover {
+	background: #1f6307;
+}
+
+#contacto__sigueme {
+	width: 240px;
+	height: 54px;
+	margin: 20px auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 26px;
+	background: #191919;
+	border: 1px solid #191919;
+	border-radius: 10px;
+}
+
+#contacto__sigueme a {
+	text-decoration: none;
+	color: white;
+}
+
+#contacto__sigueme span {
+	margin-left: 10px;
+}
+
+#contacto__sigueme:hover {
+	-webkit-box-shadow: 0px 0px 6px -1px rgba(191, 196, 196, 1);
+	-moz-box-shadow: 0px 0px 6px -1px rgba(191, 196, 196, 1);
+	box-shadow: 0px 0px 6px -1px rgba(191, 196, 196, 1);
+}
+
+#contacto__sigueme:hover a {
+	color: #298807;
+}
+
