@@ -91,3 +91,14 @@
 	}
 
 }
+
+@media screen and (max-width: 360px) {
+	/***************************************
+	ESTILOS SECCION SERVICIOS
+	***************************************/
+	.servicios__descripcion {
+		font-size: 14px;
+	}
+
+
+}

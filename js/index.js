@@ -70,6 +70,20 @@ function iniciar() {
   imgPostgresql.addEventListener("mouseover", hoverPostgresql);
   imgPostgresql.addEventListener("mouseout", outPostgresql);
 
+  // *********************************************
+  // SECCION SERVICIOS
+  // *********************************************
+  var imgResponsive = document.getElementById("item-responsive");
+  imgResponsive.addEventListener("mouseover", hoverResponsive);
+  imgResponsive.addEventListener("mouseout", outResponsive);
+  //
+  var imgSeo = document.getElementById("item-seo");
+  imgSeo.addEventListener("mouseover", hoverSeo);
+  imgSeo.addEventListener("mouseout", outSeo);
+  //
+  var imgDesarrollo = document.getElementById("item-desarrollo");
+  imgDesarrollo.addEventListener("mouseover", hoverDesarrollo);
+  imgDesarrollo.addEventListener("mouseout", outDesarrollo);
 }
 
 // *********************************************
@@ -244,6 +258,38 @@ function outPostgresql() {
   imagen.src="img/postgresql-osc.svg";
 }
 
+// *********************************************
+// SECCION SERVICIOS
+// *********************************************
+function hoverResponsive() {
+  var imagen = document.querySelector("#item-responsive img");
+  imagen.src="img/responsive-hover.svg";
+}
+
+function outResponsive() {
+  var imagen = document.querySelector("#item-responsive img");
+  imagen.src="img/responsive.svg";
+}
+//
+function hoverSeo() {
+  var imagen = document.querySelector("#item-seo img");
+  imagen.src="img/seo-hover.svg";
+}
+
+function outSeo() {
+  var imagen = document.querySelector("#item-seo img");
+  imagen.src="img/seo.svg";
+}
+//
+function hoverDesarrollo() {
+  var imagen = document.querySelector("#item-desarrollo img");
+  imagen.src="img/desarrollo-hover.svg";
+}
+
+function outDesarrollo() {
+  var imagen = document.querySelector("#item-desarrollo img");
+  imagen.src="img/desarrollo.svg";
+}
 
 //
 window.addEventListener("load", iniciar);
