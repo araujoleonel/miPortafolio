@@ -90,6 +90,47 @@
 		min-width: 300px;
 	}
 
+	/***************************************
+	ESTILOS SECCION PORTAFOLIO
+	***************************************/
+	.portafolio__item {
+		width: 350px;
+	}
+
+	.portafolio__item img {
+		width: 350px;
+	}
+
+	#portafolio__detal_1 {
+		width: 350px;
+	}
+
+	.portafolio__enlaces {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 465px) {
+	/***************************************
+	ESTILOS SECCION PORTAFOLIO
+	***************************************/
+	.portafolio__item {
+		width: 300px;
+	}
+
+	.portafolio__item img {
+		width: 300px;
+	}
+
+	#portafolio__detal_1 {
+		width: 300px;
+	}
+
+	.portafolio__enlaces {
+		width: 300px;
+	}
+
+
 }
 
 @media screen and (max-width: 360px) {
@@ -98,6 +139,25 @@
 	***************************************/
 	.servicios__descripcion {
 		font-size: 14px;
+	}
+
+	/***************************************
+	ESTILOS SECCION PORTAFOLIO
+	***************************************/
+	.portafolio__item {
+		width: 250px;
+	}
+
+	.portafolio__item img {
+		width: 250px;
+	}
+
+	#portafolio__detal_1 {
+		width: 250px;
+	}
+
+	.portafolio__enlaces {
+		width: 250px;
 	}
 
 
